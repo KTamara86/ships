@@ -5,12 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ships</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./favicon-32x32.png" type="image/png">
 </head>
+
 <body>
     <div class="container">
+        
+        <img class="logo" src="./IMG_0553.jpg" alt="Hajó">
+
+        <div class="mt-4 id">
+            <p>A hajó nagyobb biztonságban van a kikötőben,<br> 
+                de a hajókat nem ezért építik.</p>
+            <p><b>-Paulo Coelho-</b></p>
+        </div>
+        
         <h1>Hajók</h1>
         
-        <table>
+        <table class="table table-dark table-striped table-hover">
             <thead>
                 <tr>
                     <th>Név</th>
@@ -23,8 +36,14 @@
 
             <tbody id="tbody"></tbody>
         </table>
+
+        <div class="mt-5 ab">
+            <b>Kukta Tamara</b>, <br> SZOFT-I/1-E, <br> 2023-03-28
+        </div>
+
     </div>
 
     <script src="app.js"></script>
+
 </body>
 </html>
