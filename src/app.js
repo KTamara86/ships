@@ -13,19 +13,19 @@ const doc = {
 };
 
 const state ={
-    database: []
+    ships: []
 };
 
 window.addEventListener('load',()=>{
     init();
-    getDatabase();
+    getShips();
 });
 
 function init(){
     doc.tbody = document.querySelector('#tbody');
 }
 
-function getDatabase(){
+function getShips(){
     let host = 'http://localhost:8000/';
     endpoint = 'ships';
     let url = host + endpoint;
