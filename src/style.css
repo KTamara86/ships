@@ -1,0 +1,42 @@
+html{
+    font-size: 12px;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+}
+
+.logo{
+    height: 150x;
+    width: 150px;
+    float:left;
+    padding-top: 30px;
+}
+
+.id{
+    text-align: right;
+    color: grey;
+}
+
+.container h1{
+    font-style:italic;
+    font-size: 25px ;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+td, th {
+    width: 20%;
+    text-align: center;
+}
+
+.ab{
+    text-align: left;
+    color: grey;
+}
