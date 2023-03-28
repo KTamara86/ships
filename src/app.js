@@ -1,3 +1,13 @@
+/*
+File: app.js
+Author: Kukta Tamara
+Copyright: 2023, Kukta Tamara
+Group: SZOFT I-1-E
+Date: 2023-03-28
+Github: https://github.com/KTamara86/
+Licenc: GNU GPL
+*/
+
 const doc = {
     tbody: null
 };
