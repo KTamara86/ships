@@ -13,25 +13,25 @@ const doc = {
 };
 
 const state ={
-    ships: []
+    database: []
 };
 
 window.addEventListener('load',()=>{
     init();
-    getShips();
-})
+    getDatabase();
+});
 
 function init(){
     doc.tbody = document.querySelector('#tbody');
 }
 
-function getShips(){
+function getDatabase(){
     let host = 'http://localhost:8000/';
     endpoint = 'ships';
     let url = host + endpoint;
     fetch(url)
     .then(response => response.json())
-    .then(result =>{
+    .then(result => {
         state.ships = result;
         render();
     });
@@ -40,6 +40,7 @@ function getShips(){
 function render() {
     let rows = '';
     state.ships.forEach(ship => {
+        console.log(ship.name);
         rows += `
             <tr>
                 <td>${ship.name}</td>
